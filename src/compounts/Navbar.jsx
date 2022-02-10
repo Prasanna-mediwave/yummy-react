@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import img from "../img/yummy.svg";
 const NavBar = () => {
@@ -6,12 +6,14 @@ const NavBar = () => {
     <div className="navbarWarp">
       <div className="navbarContainer">
         <div>
-          <img src={img} alt="Yummy logo" />
+          <Link to="/">
+            <img src={img} alt="Yummy logo" />
+          </Link>
         </div>
         <div>
           <div className="subNavbar">
-            <a href="/">Home</a>
-            <a href="/">Recipes</a>
+            <Link to="/">Home</Link>
+            <Link to="/">Recipes</Link>
           </div>
         </div>
       </div>

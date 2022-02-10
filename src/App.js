@@ -1,13 +1,20 @@
 import React from "react";
 import NavBar from "./compounts/Navbar";
 import "../src/css/App.css";
-import Header from "./compounts/Header";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./compounts/Home";
+import AddRecipes from "./compounts/AddRecipes";
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Header />
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/AddRecipes" element={<AddRecipes />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
