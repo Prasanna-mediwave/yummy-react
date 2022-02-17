@@ -4,6 +4,7 @@ import "../src/css/App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./compounts/Home";
 import AddRecipes from "./compounts/AddRecipes";
+import Footer from "./compounts/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/AddRecipes" element={<AddRecipes />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

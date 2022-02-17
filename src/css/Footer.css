@@ -1,0 +1,42 @@
+.FooterWarp {
+  height: 163px;
+  background: #17285a;
+}
+.FooterTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 110px;
+  margin: 0px 132px;
+  border-bottom: 1px solid #ffffff7e;
+}
+.SocialMedia img:nth-child(2) {
+  padding: 0px 10px;
+}
+.FooterTop a:nth-child(2) {
+  text-decoration: none;
+  color: #ffff;
+}
+.FooterTop a:nth-child(1) {
+  padding-right: 38px;
+  text-decoration: none;
+  color: #ffff;
+}
+@font-face {
+  font-family: apple chancery;
+  src: url(/src/Apple\ Chancery\ 100.ttf);
+}
+.FooterTop div:nth-child(1) {
+  font-size: 40px;
+  font-family: apple chancery;
+  text-decoration: none;
+  color: #ffff;
+}
+.FooterBottom {
+  height: 53px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 38px;
+  color: #ffff;
+}

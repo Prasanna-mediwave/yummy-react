@@ -1,6 +1,7 @@
 import search from "../img/search.svg";
 import "../css/Home.css";
 import { Link } from "react-router-dom";
+import Card from "../compounts/Card";
 const Home = () => {
   return (
     <>
@@ -19,6 +20,9 @@ const Home = () => {
         <div>
           <Link to="/AddRecipes">ADD RECIPES</Link>
         </div>
+      </div>
+      <div>
+        <Card />
       </div>
     </>
   );

@@ -118,7 +118,7 @@ input[type="radio"] {
   width: 187px;
   background: #00b158;
   border-radius: 25px;
-  margin-top: 25px;
+  margin: 25px 0px 118px 0px;
 }
 
 .AddBtn button {
