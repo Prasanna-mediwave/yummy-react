@@ -1,11 +1,10 @@
 import React from "react";
 import NavBar from "./compounts/Navbar";
 import "../src/css/App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./compounts/Home";
 import AddRecipes from "./compounts/AddRecipes";
 import Footer from "./compounts/Footer";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div>

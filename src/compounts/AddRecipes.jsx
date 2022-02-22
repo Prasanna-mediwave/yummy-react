@@ -1,6 +1,5 @@
 import back from "../img/<.png";
 import "../css/AddRecipes.css";
-
 import { useState } from "react";
 import Card from "./Card";
 
@@ -29,7 +28,7 @@ const AddRecipes = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(recipes.title);
+    console.log(recipes);
   };
   <Card
     title={recipes.title}

@@ -1,21 +1,23 @@
 import React from "react";
 import "../css/Card.css";
+import Img1 from "../img/new.jpg";
+import Nv from "../img/nv.png";
 
-const Card = ({ title, image, foodtype, req }) => {
+const Card = () => {
   const cardInfo = [
     {
-      image: image,
+      image: Img1,
       altImg: "grill chicken",
-      title: title,
-      content: req,
-      foodtype: foodtype,
+      title: "grill chicken",
+      content: "hfgdkjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj",
+      foodtype: Nv,
       altType: "non-veg",
     },
   ];
 
   const renderCard = (card, index) => {
     return (
-      <div className="cardWarp" key={index}>
+      <div className="cardWarp" key={index} id="ghj">
         <div>
           <div className="cardImg">
             <img src={card.image} alt={card.altImg} />

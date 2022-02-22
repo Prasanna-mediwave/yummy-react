@@ -13,7 +13,7 @@ const NavBar = () => {
         <div>
           <div className="subNavbar">
             <Link to="/">Home</Link>
-            <Link to="/">Recipes</Link>
+            <a href="#ghj">Recipe</a>
           </div>
         </div>
       </div>
